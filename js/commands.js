@@ -79,7 +79,7 @@ function checkChat(){
 
 function sendMessage(mes, who){
   if(who == "bot"){
-    chat.append(`<div class="text-success" style="font-weight: bold; font-size: 22px;"> Clentzi: </div>` + `<div class="card bg-light border-0 shadow-sm p-0 mb-3"><div class="card-body"><p class="mb-0 ${who}">${mes}</p></div></div>` + `<div class="text-white"><p class="mb-0 ">${n}</p></div>`);
+    chat.append(`<div class="text-success" style="font-weight: bold; font-size: 22px;"> BOT: </div>` + `<div class="card bg-light border-0 shadow-sm p-0 mb-3"><div class="card-body"><p class="mb-0 ${who}">${mes}</p></div></div>` + `<div class="text-white"><p class="mb-0 ">${n}</p></div>`);
   }
   else{
     chat.append(`<div class="text-primary" style="font-weight: bold; font-size: 22px;"> You: </div>` + `<div class="card text-white bg-primary border-0 shadow-sm p-0 mb-3"><div class="card-body"><p class="mb-0  ${who}">${mes}</p></div></div>` + `<div class="text-white"><p class="mb-0 ">${n}</p></div>`);
