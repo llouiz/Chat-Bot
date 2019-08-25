@@ -1,0 +1,33 @@
+body {
+  background-image: url(../images/bot-wall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+div h1, div h4 {
+  color: #fff;
+  text-shadow: 5px 4px 6px;
+}
+
+#message, #send {
+	position: relative;
+	top: 20px;
+}
+
+
+#chat{
+  height:400px;
+  overflow: auto;
+  width:115px;
+  position:relative;
+
+/*   display:flex;
+  flex-direction:column-reverse;
+  justify-content:flex-end; */
+}
+
+#chat .card{
+  display:block;
+}
