@@ -13,7 +13,9 @@ var n = d.toLocaleTimeString(navigator.language, {
 var topicJSON = [{ask:"hi", ans:["Hello ;)"]},
                  {ask:"hello", ans:["Hi ;)"]},
                  {ask:"How are you?", ans:["I'm fine, thanks! You?"]},
-                 {ask:"Good", ans:["Great!! :)"]}
+                 {ask:"Good", ans:["Great!! :)"]},
+                 {ask:"What do you think about me?", ans:["I think you're a nice person.. :)"]},
+                 {ask:"Thanks", ans:["You're welcome!!"]}
                 ];
 // </brain>
 
